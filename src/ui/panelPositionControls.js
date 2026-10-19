@@ -248,6 +248,7 @@ export class PanelPositionControls {
         handle: cctvPanel?.querySelector('.panel-header'),
         portable: true,
         min: { width: 300, height: 160 },
+        dockOnCollapse: true,
       },
       {
         id: 'street-level-panel',
